@@ -6,76 +6,29 @@
 <br>
 
 ## Guide
-### 1. git clone 및 환경 설정
-* git / conda 설치 및 설정이 완료된 상황임을 가정하여 작성함.
+### 1. git clone 및 가상환경 설정
+* git, conda 설치 및 설정이 완료된 상황임을 가정하여 작성함.
 ```shell
 # git clone
+cd ~
 git clone https://github.com/lsy0882/YOLOv7-Face_Byte.git
 
-# conda 설정
+# conda 가상환경 생성
+conda create -n yolov7-face_byte python=3.9
 
-docker run --gpus all -it -d --name yunet_byte lsy0882/yunet_byte:ubuntu20.04_cuda11.7.1_cudnn8_v1.0.0
+# conda 가상환경 활성화
+conda activate yolov7-face_byte
 
-# 컨테이너 접속
-docker attach yunet_byte
+# conda 내 pip 패키지 설치
+pip install -r requirements.txt
+
+# 
 ```
 <br>
 
-### 2. 컨테이너 내 환경 설정모델 실행 방법
+### 2. 가상환경 내 모델 설정 방법
 ```shell
-# 컨테이너 내 가상환경 활성화
-workon opencv_dnn_cuda
-
-# GPU compute capability 버전 확인 (1~n번째 줄에 출력된 숫자 0번 GPU ~ n-1번 GPU의 compute capability 버전)
-# 만약 GPU compute capability 버전이 8.6이면, 
-# 아래의 "OpenCV 다운로드", "OpenCV 설정"은 생략하고 "3. 컨테이너 내 모델 설정 방법"으로 넘어갈 것.
-nvidia-smi --query-gpu=compute_cap --format=csv
-
-# OpenCV 다운로드
-cd ~
-wget -O opencv-4.7.0.zip https://github.com/opencv/opencv/archive/4.7.0.zip
-unzip -q opencv-4.7.0.zip
-mv opencv-4.7.0 opencv
-rm -f opencv-4.7.0.zip
-
-wget -O opencv_contrib-4.7.0.zip https://github.com/opencv/opencv_contrib/archive/4.7.0.zip
-unzip -q opencv_contrib-4.7.0.zip
-mv opencv_contrib-4.7.0 opencv_contrib
-rm -f opencv_contrib-4.7.0.zip
-
-# OpenCV 설정
-cd ~/opencv
-mkdir build
-cd build
-
-cmake -D CMAKE_BUILD_TYPE=RELEASE \
-  -D CMAKE_INSTALL_PREFIX=/usr/local \
-  -D INSTALL_PYTHON_EXAMPLES=ON \
-  -D INSTALL_C_EXAMPLES=OFF \
-  -D OPENCV_ENABLE_NONFREE=ON \
-  -D WITH_CUDA=ON \
-  -D WITH_CUDNN=ON \
-  -D OPENCV_DNN_CUDA=ON \
-  -D ENABLE_FAST_MATH=1 \
-  -D CUDA_FAST_MATH=1 \
-  -D CUDA_ARCH_BIN=0.0 \ # (중요) 이 값은, 앞서 확인한 GPU compute capability 버전값으로 입력해야함.
-  -D WITH_CUBLAS=1 \
-  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
-  -D HAVE_opencv_python3=ON \
-  -D PYTHON_EXECUTABLE=~/.virtualenvs/opencv_dnn_cuda/bin/python \
-  -D PYTHON3_PACKAGE_PATH=~/.virtualenvs/opencv_dnn_cuda/lib/python3.8/site-packages \
-  -D BUILD_EXAMPLES=ON ..
-
-make -j$(nproc)
-make install
-ldconfig
-```
-<br>
-
-### 3. 컨테이너 내 모델 설정 방법
-* 모델에 입력할 영상 데이터를 컨테이너로 옮긴 상황임을 가정하여 작성함.
-```shell
-cd ~/YuNet_Byte/
+cd ~/YOLOv7-Face_Byte/
 
 # vim 또는 vi 등 편집기를 이용해서 setting.yml 내용을 기호에 맞게 수정함.
 vim setting.yml
