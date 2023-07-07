@@ -6,7 +6,7 @@
 <br>
 
 ## Guide
-### 1. git clone 및 가상환경 설정
+### 1. git clone 및 conda 가상환경 설정
 * git, conda 설치 및 설정이 완료된 상황임을 가정하여 작성함.
 ```shell
 # git clone
