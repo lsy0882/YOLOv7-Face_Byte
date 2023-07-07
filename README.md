@@ -9,6 +9,8 @@
 * 실험환경
   * CPU: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz * 1ea (core : 12, Thread : 24)
   * GPU: RTX3090 x 1ea
+<br>
+
 * yolo7s 모델 실험결과
 
 | video(30fps) | params |    360p-cpu    |        360p-gpu         |   480p-cpu    |        480p-gpu         |   1080p-cpu    |       1080p-gpu        |    4k-cpu     |         4k-gpu         |
