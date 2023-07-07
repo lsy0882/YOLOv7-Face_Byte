@@ -1,0 +1,5 @@
+object_tracking:
+  track_threshold: 0.01
+  track_buffer: 150
+  match_threshold: 0.25
+  frame_rate: 30
