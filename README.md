@@ -21,8 +21,6 @@ conda activate yolov7-face_byte
 
 # conda 내 pip 패키지 설치
 pip install -r requirements.txt
-
-# 
 ```
 <br>
 
