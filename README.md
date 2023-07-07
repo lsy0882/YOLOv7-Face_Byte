@@ -3,17 +3,17 @@
 
 ## Notification
 * 라이센스 문제로 인해, 본 코드에 대한 상업적인 사용은 불가함.
-* 다양한 환경에서도 Opencv-GPU를 사용하기 위해 Docker image를 제작함.
 <br>
 
 ## Guide
-### 1. Docker 이미지 다운로드 및 컨테이너 생성 방법
-* 도커 설치 및 설정이 완료된 상황임을 가정하여 작성함.
+### 1. git clone 및 환경 설정
+* git / conda 설치 및 설정이 완료된 상황임을 가정하여 작성함.
 ```shell
-# 이미지 다운로드
-docker pull lsy0882/yunet_byte:ubuntu20.04_cuda11.7.1_cudnn8_v1.0.0
+# git clone
+git clone https://github.com/lsy0882/YOLOv7-Face_Byte.git
 
-# 컨테이너 생성
+# conda 설정
+
 docker run --gpus all -it -d --name yunet_byte lsy0882/yunet_byte:ubuntu20.04_cuda11.7.1_cudnn8_v1.0.0
 
 # 컨테이너 접속
