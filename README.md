@@ -8,15 +8,16 @@
 ## Google drive
 * 링크: https://drive.google.com/drive/folders/1STAohMO5NEK2vYcPYx3nm4Uq08MiUkbv?usp=sharing
 * 모델관련 안내
-  * 상기 링크 내 "YOLOv7-Face_Byte / Weight 파일" 폴더에서 "yolov7-w6-face_resol1280.pt", "yolov7s-face_resol640.pt" 다운로드 (이름 변경 X)
-  * 다운로드 완료한 .pt 파일을 git clone 한 폴더(YOLOv7-Face_Byte)에 저장.
+ * 상기 링크 내 "YOLOv7-Face_Byte / Weight 파일" 폴더에서 "yolov7-w6-face_resol1280.pt", "yolov7s-face_resol640.pt" 다운로드 (이름 변경 X)
+ * 다운로드 완료한 .pt 파일을 git clone 한 폴더(YOLOv7-Face_Byte)에 저장.
 * 데모에 쓰인 원본 영상 안내
-  * 상기 링크 내 "원본 영상" 폴더 다운로드
+ * 상기 링크 내 "원본 영상" 폴더 다운로드
+<br>
 
 ## Inference time table
 * 실험환경
-  * CPU: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz * 1ea (core : 12, Thread : 24)
-  * GPU: RTX3090 x 1ea
+ * CPU: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz * 1ea (core : 12, Thread : 24)
+ * GPU: RTX3090 x 1ea
 
 * yolo7s 모델 실험결과
 
@@ -84,8 +85,8 @@ sh run.sh
 
 ## P.S.
 * git, conda 설치 및 설정 / 가상환경 내 패키치 설정 / sh 파일 내 arguments 설명 / 오류 해결법 등 궁금한 사항이 있으시다면 아래 연락처로 연락주시기 바랍니다.
-  * 제작자: 이상윤
-  * 소속: 서강대학교 IIPLAB
+ * 제작자: 이상윤
+ * 소속: 서강대학교 IIPLAB
   * 지도교수: 박형민 교수님
   * 연락처: +82-010-3354-0882
   * 이메일: leesy0882@gmail.com
