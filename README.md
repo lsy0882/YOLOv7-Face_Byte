@@ -54,6 +54,8 @@ conda activate yolov7-face_byte
 # conda 내 pip 패키지 설치
 cd YOLOv7-Face_Byte
 pip install -r requirements.txt
+pip install Cython
+pip install cython_bbox
 ```
 <br>
 
