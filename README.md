@@ -14,6 +14,8 @@
 * 데모에 쓰인 원본 영상 안내
     * 상기 링크 내 "원본 영상" 폴더 속 영상 파일들 다운로드해서 활용
 * 대표 데모영상 (gwanak_05_360p_yolov7-w6-face.gif)
+![Uploading gwanak_05_360p_yolov7-w6-face.gif…]()
+
 <br>
 
 ## 입력 영상 요구사항
