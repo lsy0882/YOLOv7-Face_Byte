@@ -65,7 +65,7 @@ def detect(opt):
         dataset = LoadImages(source, img_size=imgsz, stride=stride)
 
     # Set Tracker
-    setting_path = "/home/lsy/laboratory/Prosecutor/yolov7-face/setting.yml" # /home/lsy/laboratory/Prosecutor/YuNet_Byte/setting.yml  /workspace/setting.yml
+    setting_path = "setting.yml"
     with open(setting_path) as setting_file:
         setting = yaml.safe_load(setting_file)
     tracker = BYTETracker(setting["object_tracking"])
