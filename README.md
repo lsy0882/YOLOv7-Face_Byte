@@ -16,6 +16,7 @@
 * 대표 데모영상 (gwanak_05_360p_yolov7-w6-face)
 <br>
 https://youtu.be/Pt3AtdnqhZM
+<br>
 <iframe width="956" height="538" src="https://youtu.be/Pt3AtdnqhZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
