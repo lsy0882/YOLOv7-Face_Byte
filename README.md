@@ -77,7 +77,7 @@ python detect.py \
 
 # vim 또는 vi 등 편집기를 이용해서 detect.py 내용을 기호에 맞게 수정함.
 vim detect.py
-line 68: setting_path = "/home/YOLOv7-FACE_Byte/setting.yml" # YOLOv7-FACE_Byte 폴더 내 setting.yml 파일 경로 지정
+line 68: setting_path = "/home/YOLOv7-Face_Byte/setting.yml" # YOLOv7-FACE_Byte 폴더 내 setting.yml 파일 경로 지정
 
 ```
 <br>
