@@ -29,5 +29,3 @@ onnxruntime==1.10.0
 thop  # FLOPS computation
 pycocotools>=2.0  # COCO mAP
 lap
-Cython
-cython_bbox
