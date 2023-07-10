@@ -5,7 +5,15 @@
 * 라이센스 문제로 인해, 본 코드에 대한 상업적인 사용은 불가함.
 <br>
 
-##  Inference time table
+## Google drive
+* 링크: https://drive.google.com/drive/folders/1STAohMO5NEK2vYcPYx3nm4Uq08MiUkbv?usp=sharing
+* 모델관련 안내
+  * 상기 링크 내 "YOLOv7-Face_Byte / Weight 파일" 폴더에서 "yolov7-w6-face_resol1280.pt", "yolov7s-face_resol640.pt" 다운로드 (이름 변경 X)
+  * 다운로드 완료한 .pt 파일을 git clone 한 폴더(YOLOv7-Face_Byte)에 저장.
+* 데모에 쓰인 원본 영상 안내
+  * 상기 링크 내 "원본 영상" 폴더 다운로드
+
+## Inference time table
 * 실험환경
   * CPU: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz * 1ea (core : 12, Thread : 24)
   * GPU: RTX3090 x 1ea
