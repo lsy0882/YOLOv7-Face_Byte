@@ -15,6 +15,8 @@
     * 상기 링크 내 "원본 영상" 폴더 속 영상 파일들 다운로드해서 활용
 * 대표 데모영상 (gwanak_05_360p_yolov7-w6-face.gif)
 <br>
+https://youtu.be/Pt3AtdnqhZM
+<br>
 {% include video id="Pt3AtdnqhZM" provider="youtube" %}
 
 <br>
