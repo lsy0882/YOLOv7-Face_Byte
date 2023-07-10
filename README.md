@@ -56,6 +56,7 @@ cd YOLOv7-Face_Byte
 pip install -r requirements.txt
 pip install Cython
 pip install cython_bbox
+pip install lap
 ```
 <br>
 
