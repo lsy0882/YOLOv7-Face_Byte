@@ -13,12 +13,9 @@
     * 다운로드 완료한 .pt 파일을 git clone 한 폴더(YOLOv7-Face_Byte)에 저장.
 * 데모에 쓰인 원본 영상 안내
     * 상기 링크 내 "원본 영상" 폴더 속 영상 파일들 다운로드해서 활용
-* 대표 데모영상 (gwanak_05_360p_yolov7-w6-face.gif)
+* 대표 데모영상 (gwanak_05_360p_yolov7-w6-face)
 <br>
-[![Video Label](http://img.youtube.com/vi/Pt3AtdnqhZM/0.jpg)](https://youtu.be/Pt3AtdnqhZM?t=0s)
-<br>
-{% include video id="Pt3AtdnqhZM" provider="youtube" %}
-
+[![gwanak_05_360p_yolov7-w6-face](http://img.youtube.com/vi/Pt3AtdnqhZM/0.jpg)](https://youtu.be/Pt3AtdnqhZM?t=0s)
 <br>
 
 ## 입력 영상 요구사항
