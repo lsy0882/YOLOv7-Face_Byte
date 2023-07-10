@@ -74,6 +74,11 @@ python detect.py \
     --iou-thres 0.001 \ # face 객체의 box 정확도 관련 임계값. 낮을수록 다양하지만 정확도 낮은 box 검출
     --project runs/yolov7-w6-face_resol1280/final \ # 결과를 저장한 경로
     --device 0 # cpu 라고 적으면 cpu로 동작, 0, 1, ..., n으로 적으면 0번째, 1번째, ..., n번째 GPU로 동작
+
+# vim 또는 vi 등 편집기를 이용해서 detect.py 내용을 기호에 맞게 수정함.
+vim detect.py
+line 68: setting_path = "/home/YOLOv7-FACE_Byte/setting.yml" # YOLOv7-FACE_Byte 폴더 내 setting.yml 파일 경로 지정
+
 ```
 <br>
 
