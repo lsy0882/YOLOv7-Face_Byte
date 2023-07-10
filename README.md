@@ -67,7 +67,7 @@ vim run.sh
 
 # 아래는 run.sh 내 arguments에 대한 설명임.
 python detect.py \
-    --source videos/360p/gwanak_05_360p.mp4 \ # 모델에 입력할 영상 데이터 경로
+    --source videos/gwanak_05_360p.mp4 \ # 모델에 입력할 영상 데이터 경로
     --weights yolov7-w6-face_resol1280.pt \ # 딥러닝 모델의 weights 파일. yolov7-w6-face_resol1280.pt 또는 yolov7s-face_resol640.pt로 설정
     --img-size 1280 1280 \ # yolov7-w6-face_resol1280.pt는 1280 1280으로 설정, yolov7s-face_resol640.pt는 640 640으로 설정
     --conf-thres 0.0001 \ # detect한 face 객체의 신뢰점수 임계값. 낮을수록 다양하지만 정확도 낮은 객체 검출
