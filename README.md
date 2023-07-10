@@ -15,9 +15,8 @@
     * 상기 링크 내 "원본 영상" 폴더 속 영상 파일들 다운로드해서 활용
 * 대표 데모영상 (gwanak_05_360p_yolov7-w6-face)
 <br>
-[![gwanak_05_360p_yolov7-w6-face](http://img.youtube.com/vi/Pt3AtdnqhZM/0.jpg)](https://youtu.be/Pt3AtdnqhZM?t=0s)
-<br>
-[![IU(아이유) _ Into the I-LAND](http://img.youtube.com/vi/QYNwbZHmh8g/0.jpg)](https://youtu.be/QYNwbZHmh8g?t=0s) 
+https://youtu.be/Pt3AtdnqhZM
+<iframe width="956" height="538" src="https://youtu.be/Pt3AtdnqhZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
 ## 입력 영상 요구사항
