@@ -52,14 +52,13 @@ conda create -n yolov7-face_byte python=3.9
 conda activate yolov7-face_byte
 
 # conda 내 pip 패키지 설치
+cd YOLOv7-Face_Byte
 pip install -r requirements.txt
 ```
 <br>
 
 ### 2. 가상환경 내 모델 설정 방법
 ```shell
-cd ~/YOLOv7-Face_Byte/
-
 # vim 또는 vi 등 편집기를 이용해서 run.sh 내용을 기호에 맞게 수정함.
 vim run.sh
 
