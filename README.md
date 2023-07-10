@@ -14,6 +14,15 @@
     * 상기 링크 내 "원본 영상" 폴더 속 영상 파일들 다운로드해서 활용
 <br>
 
+## 입력 영상 요구사항
+* 해상도
+  * 가능 해상도: 360p, 480p, 720p, 1080p, 4k 
+  * 최적 해상도: 1080p
+* FPS
+  * 가능 FPS: 10 fps, 20 fps, 30 fps
+  * 최적 FPS: 30 fps
+<br>
+
 ## Inference time table
 * 실험환경
     * CPU: Intel(R) Core(TM) i9-10920X CPU @ 3.50GHz * 1ea (core : 12, Thread : 24)
