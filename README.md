@@ -17,6 +17,8 @@
 <br>
 [![gwanak_05_360p_yolov7-w6-face](http://img.youtube.com/vi/Pt3AtdnqhZM/0.jpg)](https://youtu.be/Pt3AtdnqhZM?t=0s)
 <br>
+[![IU(아이유) _ Into the I-LAND](http://img.youtube.com/vi/QYNwbZHmh8g/0.jpg)](https://youtu.be/QYNwbZHmh8g?t=0s) 
+<br>
 
 ## 입력 영상 요구사항
 * 해상도
